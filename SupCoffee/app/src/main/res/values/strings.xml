@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SupCoffee</string>
+    <string name="title_activity_coffee_list">CoffeeListActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_coffee">Add coffee</string>
+    <string name="supcoffee">SupCoffee</string>
+    <string name="title_activity_add_coffee_second">AddCoffeeSecondActivity</string>
+    <string name="coffee">New Coffee</string>
+    <string name="name">Coffee name</string>
+    <string name="rate">Rate</string>
+    <string name="cancel">Cancel</string>
+</resources>

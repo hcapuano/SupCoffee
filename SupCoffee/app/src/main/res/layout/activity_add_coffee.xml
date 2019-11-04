@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/addListCoffee">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:text="@string/coffee"
+            android:textSize="40sp"
+            android:layout_marginTop="30dp"/>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:inputType="text"
+            android:hint="@string/name"
+            android:layout_marginTop="90dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignTop="@+id/title"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/rate"
+            android:layout_width="300dp"
+            android:layout_height="43dp"
+            android:hint="@string/rate"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="80dp"
+            android:layout_alignTop="@+id/name"
+            android:layout_centerHorizontal="true"
+            android:importantForAutofill="no" />
+
+        <Button
+            android:id="@+id/buttonCoffee"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="@string/add_coffee"
+            android:layout_alignTop="@+id/rate"
+            android:layout_marginTop="90dp"
+            android:layout_centerHorizontal="true"
+            android:onClick="addCoffeeForm"/>
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="@string/cancel"
+            android:layout_alignTop="@+id/buttonCoffee"
+            android:layout_marginTop="90dp"
+            android:layout_centerHorizontal="true"
+            android:onClick="cancel"/>
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
